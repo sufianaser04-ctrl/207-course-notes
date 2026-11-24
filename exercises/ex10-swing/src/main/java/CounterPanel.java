@@ -37,7 +37,7 @@ public class CounterPanel extends JPanel {
 
     button.addActionListener(new ActionListener() {
         public void actionPerformed(ActionEvent e) {
-            count ++;
+            count++;
             label.setText("Count: " + count);
         }
     });
